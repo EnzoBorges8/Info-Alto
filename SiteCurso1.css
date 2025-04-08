@@ -18,6 +18,7 @@ header {
     color: white;
     background-color: #0000CD ;
     text-align: center;
+    text-decoration: none;
 }
 
 main{
@@ -38,10 +39,119 @@ h2 {
     font-size: 1.5rem;
 }
 
-input[type="radio"]{
+input[type="radio"], input[type="checkbox"] {
     accent-color: #000080 ;
+    cursor: pointer;
 }
 
-input[type ="checkbox"]{
-    accent-color: #000080 ;
+input[type="text"], input[type="date"],input[type="password"]{
+    width: 47.5%;
+    padding: 0.4rem;
+    border: 2px solid #000080;
+    outline: none;
+    border-radius: 0.9rem;
+    background-color: transparent;
+}    
+input[type="email"]{
+    width: 30%;
+    padding: 0.4rem;
+    border: 2px solid #000080;
+    outline: none;
+    border-radius: 0.9rem;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #A9A9A9;
+}
+
+select{
+    cursor: pointer;
+    color: #000080;
+    border-radius: 0.3rem;
+}
+
+img{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table{
+    width: 75%;
+    border-collapse: collapse;
+    color: black;
+}
+th{
+    background-color: #0000CD;
+    color: black;
+    padding: 0.4rem;
+}
+
+td{
+    text-align: center;
+    padding: 0.4rem;
+    color: black;
+}
+
+tfoot td{
+    text-align: center;
+}
+
+details{
+    border-radius: 5px;
+    padding: 0.4rem;;
+}
+
+summary{
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+ol{
+    margin-left: 1.6rem;
+}
+
+li{
+    margin: 0.5rem;
+    list-style-type: square;
+}
+
+fieldset{
+    border: 2px solid #000080;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+legend{
+    color: #000080;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    color:aliceblue;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #000080;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #000080;
+    cursor:pointer;
+}
+
+footer{
+    background-color: #0000CD;  
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a{
+    color: aliceblue;
+}
+
+.paragrafo-prog{
+    color: aliceblue;
+    text-decoration: none;
 }
